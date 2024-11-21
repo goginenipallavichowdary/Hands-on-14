@@ -69,3 +69,20 @@ for node, (path, distance) in paths_one.items():
 print("\nGraph Two:")
 for node, (path, distance) in paths_two.items():
     print(f"Shortest path to {node}: {path}, Distance: {distance}")
+
+### output
+Graph One:
+Shortest path to A: ['A'], Distance: 0
+Shortest path to B: ['A', 'B'], Distance: 2
+Shortest path to C: ['A', 'B', 'C'], Distance: 3
+Shortest path to D: ['A', 'D'], Distance: 4
+Shortest path to E: ['A', 'D', 'E'], Distance: 5
+Shortest path to F: ['A', 'D', 'E', 'F'], Distance: 7
+
+Graph Two:
+Shortest path to 1: ['1'], Distance: 0
+Shortest path to 2: ['1', '2'], Distance: 3
+Shortest path to 3: ['1', '2', '3'], Distance: 5
+Shortest path to 4: ['1', '2', '4'], Distance: 4
+Shortest path to 5: ['1', '2', '4', '5'], Distance: 5
+###
