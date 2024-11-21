@@ -35,7 +35,6 @@ def reconstruct_path(prev_nodes, source, destination):
         node = prev_nodes[node]
     return path if path[0] == source else None
 
-# First graph example (as adjacency list)
 graph_one = {
     'A': [('B', 2), ('D', 4)],
     'B': [('C', 1), ('D', 5)],
@@ -45,7 +44,6 @@ graph_one = {
     'F': []
 }
 
-# Second graph example
 graph_two = {
     '1': [('2', 3), ('3', 6)],
     '2': [('3', 2), ('4', 1)],
